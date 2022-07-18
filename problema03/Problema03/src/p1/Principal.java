@@ -29,12 +29,15 @@ public class Principal {
         */
         
         Estudiante e = new Estudiante();
+        Estudiante e2= new Estudiante();
         e.establecerNombres("René Elizalde");
         e.establecerUserName("rrelizalde");
+        e2.establecerNombres("Jose Carrion");
+        e2.establecerUserName("jcarrion");
         ArrayList<Correo> lista = new ArrayList<>();
         
         DominioGmail dominio = new DominioGmail();
-        dominio.establecerDominio("gmail.com");
+        dominio.establecerDominio();
         Correo c = new Correo();
         c.establecerDominio(dominio);
         c.establecerUserName(e.obtenerUserName());
