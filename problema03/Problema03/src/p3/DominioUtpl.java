@@ -11,9 +11,10 @@ package p3;
 public class DominioUtpl implements Dominio {
     private String dominio;
 
-    @Override
-    public void establecerDominio() {
-        dominio="@utpl.edu.ec";
+   @Override
+    public void establecerDominio(String g) {
+                dominio = g;
+
     }
 
     @Override

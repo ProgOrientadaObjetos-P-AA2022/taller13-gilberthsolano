@@ -11,9 +11,10 @@ package p3;
 public class DominioOutlook implements Dominio{
     private String dominio;
 
-    @Override
-    public void establecerDominio() {
-        dominio="@outlook.com";
+  @Override
+    public void establecerDominio(String g) {
+                dominio = g;
+
     }
 
     @Override

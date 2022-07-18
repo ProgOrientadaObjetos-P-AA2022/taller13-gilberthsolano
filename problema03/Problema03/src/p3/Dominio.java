@@ -9,7 +9,7 @@ package p3;
  * @author gilbertsolanosotomayor
  */
 public interface Dominio {
-    public void establecerDominio();
+    public void establecerDominio(String g);
      public String obtenerDominio();
      
     

@@ -21,8 +21,8 @@ public class DominioGmail implements Dominio{
 //    }
 
     @Override
-    public void establecerDominio() {
-                dominio = "@gmail.com";
+    public void establecerDominio(String g) {
+                dominio = g;
 
     }
 

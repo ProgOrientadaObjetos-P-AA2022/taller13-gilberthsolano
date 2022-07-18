@@ -12,9 +12,10 @@ public class DominioGobierno implements Dominio{
         private String dominio;
 
 
-    @Override
-    public void establecerDominio() {
-        dominio="gobiernoec.gob";
+     @Override
+    public void establecerDominio(String g) {
+                dominio = g;
+
     }
 
     @Override

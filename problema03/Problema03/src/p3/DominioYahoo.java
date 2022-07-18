@@ -8,6 +8,27 @@ package p3;
  *
  * @author gilbertsolanosotomayor
  */
-public class DominioYahoo {
+public class DominioYahoo implements Dominio{
+
+     private String dominio;
+    
+//    public void establecerDominio(String g){
+//        dominio = g;
+//    }
+//    
+//    public String obtenerDominio(){
+//        return dominio;
+//    }
+
+    @Override
+    public void establecerDominio(String g) {
+                dominio = g;
+
+    }
+
+    @Override
+    public String obtenerDominio() {
+        return dominio;
+    }
     
 }
